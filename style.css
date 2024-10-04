@@ -1,0 +1,71 @@
+.menubar{
+    background-image: url("images/skill\ background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    padding: 50px;
+    color: azure;
+    font-size: 30px;
+}
+
+.total{
+    background-image: url("images/hobbies\ background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pro{
+    border: 2px solid black;
+    border-radius: 150px;
+}
+#skill{
+    padding: 100px; 
+}
+.Education{
+    padding: 50px; 
+
+}
+.profile{
+    padding: 50px;
+}
+.content{
+    border: 1px solid gray;
+    background-color: transparent;
+    width: 300px;
+    height: fit-content;
+    padding: 5px;
+}
+.headingitem{
+    font-size: 30px;
+}
+.foot{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(26, 24, 24);
+}
+
+#ful{
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 30px;
+    justify-items: center;
+    margin: auto;
+}
+/* @media (min-width:500px){ */
+    #ful{
+        grid-auto-flow: column;
+    }
+/* } */
+#fli :last-child{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+#fli{
+    color: rgb(26, 24, 24);
+}
+a{
+    color: white;
+}
